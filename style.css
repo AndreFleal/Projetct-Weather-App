@@ -18,7 +18,7 @@ header {
   left: 0;
   width: 100%;
   text-align: center;
-  color: #f0d911;
+  color: #06283d;
   font-family: "Roboto", sans-serif;
 }
 h2 {
@@ -27,7 +27,7 @@ h2 {
   left: 0;
   width: 100%;
   text-align: center;
-  color: #06283d;
+  color: rgb(226, 208, 208);
   font-family: "Roboto", sans-serif;
 }
 .container {
