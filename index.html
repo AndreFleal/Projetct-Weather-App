@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-</head>
-<body>
-    <header>
-        <h1>Weather App</h1>
-    </header>
-    <h2>In summary, this weather app is a simple and user-friendly <p>tool for checking the current weather conditions in
-            different
-        <p>
-            cities by entering their names in the search box.
-    </h2>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/68894c7b52.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="container">
-    <div class="search-box">
+      <header>
+        <h1>Weather App</h1>
+        <p>Check real-time weather anywhere in the world 🌍</p>
+      </header>
+
+      <div class="search-box">
         <i class="fa-solid fa-location-dot"></i>
-        <input type="text" placeholder="Enter your location">
+        <input type="text" placeholder="Enter city name" />
         <button class="fa-solid fa-magnifying-glass"></button>
-    </div>
+      </div>
 
-    <div class="not-found">
-        <img src="images/404.png">
-        <p>Oops! Invalid location :/</p>
-    </div>
+      <div class="not-found">
+        <img src="images/404.png" alt="Not found" />
+        <p>Oops! Invalid location 😢</p>
+      </div>
 
-    <div class="weather-box">
-        <img src="">
+      <div class="weather-box">
+        <img src="" alt="Weather Icon" />
         <p class="temperature"></p>
         <p class="description"></p>
-    </div>
+      </div>
 
-    <div class="weather-details">
+      <div class="weather-details">
         <div class="humidity">
-            <i class="fa-solid fa-water"></i>
-            <div class="text">
-                <span></span>
-                <p>Humidity</p>
-            </div>
+          <i class="fa-solid fa-water"></i>
+          <div class="text">
+            <span></span>
+            <p>Humidity</p>
+          </div>
         </div>
         <div class="wind">
-            <i class="fa-solid fa-wind"></i>
-            <div class="text">
-                <span></span>
-                <p>Wind Speed</p>
-            </div>
+          <i class="fa-solid fa-wind"></i>
+          <div class="text">
+            <span></span>
+            <p>Wind Speed</p>
+          </div>
         </div>
+      </div>
     </div>
 
-</div>
-
-
-    <script src="https://kit.fontawesome.com/68894c7b52.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
